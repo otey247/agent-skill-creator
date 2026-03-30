@@ -85,7 +85,12 @@ To create a skill manually, add a new folder under `.github/skills/<skill-name>/
 
 ### Creating an Agent
 
-Use the **agent-creator** custom agent, or invoke the **agent-customization** skill and ask it to create an agent for you. Agents live in `.github/agents/` as `*.agent.md` files. See the [agents reference](.github/skills/agent-customization/references/agents.md) for the full format.
+1. Open Copilot Chat in VS Code.
+2. Select the **agent-creator** agent from the agent picker, or invoke the **agent-customization** skill.
+3. Describe the agent you want — e.g., *"Create an agent that reviews PRs for security issues."*
+4. The agent will be created in `.github/agents/` as an `*.agent.md` file.
+
+See the [agents reference](.github/skills/agent-customization/references/agents.md) for the full format.
 
 ### Choosing the Right Primitive
 

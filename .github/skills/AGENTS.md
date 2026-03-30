@@ -12,7 +12,13 @@ This directory contains all agent skills for the repository. Each subdirectory i
 ## Adding a New Skill
 
 1. Create a new folder: `.github/skills/<skill-name>/`
-2. Add a `SKILL.md` with required YAML frontmatter (`name` and `description`)
+2. Add a `SKILL.md` with required YAML frontmatter (`name` and `description`):
+   ```yaml
+   ---
+   name: my-skill
+   description: 'What this skill does and when to use it.'
+   ---
+   ```
 3. The folder name must match the `name` field exactly
 4. Organize supporting files into `scripts/`, `references/`, and `assets/` subdirectories as needed
 5. Keep `SKILL.md` under 500 lines — use reference files for detailed documentation
