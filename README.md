@@ -23,7 +23,7 @@ A template repository for creating and iterating on [GitHub Copilot agent skills
 .github/
 ├── copilot-instructions.md              # Workspace-wide coding guidelines
 ├── agents/
-│   └── agent-creator.md                 # Custom agent for creating new agents
+│   └── agent-creator.agent.md            # Custom agent for creating new agents
 └── skills/
     ├── AGENTS.md                        # Guidelines for working in the skills directory
     ├── agent-customization/             # Skill: reference for all customization primitives
